@@ -1,10 +1,11 @@
 const age: number = 50;
-const username: string = 'Max';
+const username: string = "Max";
 const toggle: boolean = true;
 const empty: null = null;
 
 const callback = (a: number): number => {
-    return 100 + a;
+  return 100 + a;
 };
-console.log(age,username,toggle,empty);
-callback(10)
+
+console.log(age, username, toggle, empty);
+console.log(callback(10));
